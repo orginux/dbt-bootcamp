@@ -1,0 +1,15 @@
+---
+# Do not store this file in version control for production projects.
+airbnb:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: airbnb_dbt
+      cluster: cluster_2S_2R
+      cluster_mode: True
+      host: localhost
+      port: 8123
+      user: default
+      password: ''
+      secure: False
