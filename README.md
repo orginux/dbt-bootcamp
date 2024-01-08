@@ -1,6 +1,7 @@
-# ClickHouse Data import
+# dbt bootcamp
+Base on [The Complete dbt (Data Build Tool) Bootcamp](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/) but with usig ClickHouse as a datastore.
 
-## Preapre data
+## ClickHouse Table Structure
 ### Database
 ```sql
 CREATE DATABASE airbnb ON CLUSTER `{cluster}`;
